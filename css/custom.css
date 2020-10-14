@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap');
+
+/* impose le ratio 1rem = 10px */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+}
+
+header:hover {
+    background: black;
+    opacity: 80%;
+}
+
+
+a {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    opacity: 70%;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: #fe7b4f;
+}
+
+a[href^="#home"] {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h2 {
+    letter-spacing: 0.5em;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+figure img {
+    box-shadow: 0px 1rem 1rem -1rem black;
+}
+
+#home {
+    background: url('../img/abstract.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #2d3fbd;
+}
+
+#home div {
+    color: white;
+}
+
+#home div h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20vmin;
+    line-height: 1em;
+    mix-blend-mode: overlay;
+}
+
+#home div p {
+    font-size: 2rem;
+}
+
+#skeuomorphism {
+    background: url('../img/woodfloor.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: white;
+}
+
+#skeuomorphism h2 {
+    color: #c97e4b;
+}
+
+#flatdesign {
+    background-image: linear-gradient(45deg, white, #e0e0e0);
+}
+
+#flatdesign img {
+    box-shadow: none;
+}
+
+#materialdesign {
+    background-color: #f44133;
+}
+
+#materialdesign h2 {
+    color: #f44133;
+}
+
+#neumorphism {
+    background-color: #ebecf0;
+}
+
+#neumorphism .content p {
+    color: #ebecf0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
