@@ -11,20 +11,19 @@ body {
 }
 
 header:hover {
-    background: black;
-    opacity: 80%;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 
 a {
     color: white;
-    text-shadow: 1px 1px 3px black;
-    opacity: 70%;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     text-decoration-line: none;
 }
 
 a:hover {
     color: #fe7b4f;
+    opacity: 100%;
 }
 
 a[href^="#home"] {
@@ -41,8 +40,9 @@ figcaption {
     font-style: italic;
 }
 
+/* All images have a shadow */
 figure img {
-    box-shadow: 0px 1rem 1rem -1rem black;
+    box-shadow: 0px 1rem 1rem -1rem rgba(0, 0, 0, 0.2);
 }
 
 #home {
@@ -58,6 +58,7 @@ figure img {
     color: white;
 }
 
+/* Main title blends in with bakcground */
 #home div h1 {
     text-transform: uppercase;
     font-weight: 800;
@@ -102,8 +103,8 @@ figure img {
     background-color: #ebecf0;
 }
 
-#neumorphism .content p {
-    color: #ebecf0;
+#neumorphism .content {
+    background: #ebecf0;
 }
 
 
